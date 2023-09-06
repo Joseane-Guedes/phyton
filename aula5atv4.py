@@ -1,0 +1,20 @@
+# TODO
+# Leiam o texto abaixo e resolvam.
+
+# Na "Farmácia MINHA FARMA", clientes que comprarem produtos no valor total de R$ 100 ou mais ganham um vale-compras de R$ 10 para a próxima compra. Compras de valores menores não se qualificam para o vale.
+
+# Ao conseguir atingir o limite mínimo da compra estabelecido na promoção, deve aparecer na nota fiscal "SUA SAÚDE É O QUE IMPORTA. APRESENTE ESSE CUPOM EM SUA PRÓXIMA COMPRA E GANHE R$10 REAIS DE DESCONTO.".
+
+# Caso o cliente não cumpra o requisito, deve aparecer "OBRIGADO POR ESCOLHER A MINHA FARMA. VOCÊ SABIA QUE COMPRAS ACIMA DE R$100 REAIS GERAM UM VOUCHER DE R$10 REAIS DE DESCONTO PARA A PRÓXIMA COMPRA?"
+
+# Solicitar o valor da compra ao cliente
+valor_compra = float(
+    input("Por favor, digite o valor total da sua compra: R$ "))
+
+# Verificar se o cliente se qualifica para o vale-compras
+if valor_compra >= 100:
+    # Cliente qualificado
+    print("SUA SAÚDE É O QUE IMPORTA. APRESENTE ESSE CUPOM EM SUA PRÓXIMA COMPRA E GANHE R$10 REAIS DE DESCONTO.")
+else:
+    # Cliente não qualificado
+    print("OBRIGADO POR ESCOLHER A MINHA FARMA. VOCÊ SABIA QUE COMPRAS ACIMA DE R$100 REAIS GERAM UM VOUCHER DE R$10 REAIS DE DESCONTO PARA A PRÓXIMA COMPRA?")
