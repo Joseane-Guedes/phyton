@@ -36,6 +36,19 @@ df = pd.DataFrame(data)
 
 # print(df)
 
-recife_residents = df.loc[df['Cidade'] == 'Recife']
+recife_residentes = df.loc[df['Cidade'] == 'Recife']
 
-print(recife_residents)
+print(recife_residentes)
+
+df.to_csv("minhaprimeiratabela.csv")
+
+print(df)
+
+# TODO
+# Filtre as pessoas levando em consideração os seguintes critérios:
+
+# com idade maior que 40 anos
+# com renda maior de 5 mil
+# com renda maior de 15 mil
+# stock-image.jpg
+# Tempo de Realização
