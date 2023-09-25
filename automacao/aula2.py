@@ -24,4 +24,5 @@ for checkbox in checkboxes:
     checkbox.click()
 
 sleep(5)
+import ipdb;ipdb.sset_trace()
 navegador.quit()
